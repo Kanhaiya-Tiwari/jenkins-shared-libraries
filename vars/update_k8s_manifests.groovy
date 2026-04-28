@@ -50,3 +50,6 @@ def call(Map config = [:]) {
                 git remote set-url origin https://\${GIT_USERNAME}:\${GIT_PASSWORD}@github.com/Kanhaiya-Tiwari/CloudKart-E_Commerce_Project.git
                 git push origin HEAD:master
             fi
+        """
+    }
+}
